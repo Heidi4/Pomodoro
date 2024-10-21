@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@android:color/holo_green_dark" android:color="@color/green_dark" /> <!-- Pressed state -->
+    <item android:state_focused="true" android:drawable="@android:color/holo_green_light" android:color="@color/green_light" /> <!-- Focused state -->
+    <item android:drawable="@android:color/holo_green_light" android:color="@color/green_light" /> <!-- Default state -->
+</selector>
